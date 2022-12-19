@@ -3,7 +3,7 @@ WebSocket cat.
 
 ## Docker Build Images
 ```
-git clone 
+git clone https://github.com/thanachaiTP/wscat.git
 
 cd wscat
 
