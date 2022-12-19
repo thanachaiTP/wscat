@@ -48,7 +48,7 @@ docker run --rm -it -p 8080:8080 wscat -l 8080
 
 ## How to connect to server websocket
 ```
-docker run --rm -it --net=host wscat -c --slash -P
+docker run --rm -it --net=host wscat -c ws://127.0.0.1:8080 --slash -P
 
 > /ping
 
